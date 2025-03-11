@@ -22,7 +22,7 @@ addLayer("c", {
     },
     row: 0, // Row the layer is in on the tree (0 is the first row)
     hotkeys: [
-        {key: "c", description: "C: Reset for cat centers", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
+        {key: "c", description: "C: Get cat centers", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
     layerShown(){return true}
 })
